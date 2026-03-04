@@ -7,8 +7,9 @@
     "name": "codybrom",
     "github": "codybrom"
   },
-  "license": "",
+  "license": "fair-use",
   "language": "en",
+  "tags": ["gaming", "halo"],
   "categories": {
     "session.start": {
       "sounds": [
