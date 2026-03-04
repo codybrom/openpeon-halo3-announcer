@@ -1,0 +1,387 @@
+{
+  "cesp_version": "1.0",
+  "name": "halo3_announcer",
+  "display_name": "Announcer (Halo 3)",
+  "version": "1.0.0",
+  "author": {
+    "name": "codybromley",
+    "github": "codybrom"
+  },
+  "license": "",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/session.start/assault.mp3",
+          "label": "Assault",
+          "sha256": "61445416ea567bf4c3ed045b1d934682cd2acb3f747c02eb2e5c50402e944425"
+        },
+        {
+          "file": "sounds/session.start/capture_the_flag.mp3",
+          "label": "Capture the Flag",
+          "sha256": "e97cee7ff058561d16aae773e3e3b24866abf1d60fa7b9f74384301a23097b2b"
+        },
+        {
+          "file": "sounds/session.start/juggernaut.mp3",
+          "label": "Juggernaut",
+          "sha256": "d38dcedb81c84b260f8b83eff34c7d06a171f857a6be5c206a4693c4cfc0478f"
+        },
+        {
+          "file": "sounds/session.start/king_of_the_hill.mp3",
+          "label": "King of the Hill",
+          "sha256": "f078204f0bd7a2c35c1ba1ff7e6153d8dba4601e1a1e5e06fb97be486cdd3128"
+        },
+        {
+          "file": "sounds/session.start/oddball.mp3",
+          "label": "Oddball",
+          "sha256": "86761ab1d1c7218cfcf8ecc48cf5650792e0d5e6e438eb3d765da9fb7d56adaf"
+        },
+        {
+          "file": "sounds/session.start/play_ball.mp3",
+          "label": "Play ball!",
+          "sha256": "b324d91aa4c75c8c48b70033a4144237989a39cfcb9233e84819f0d8799e7031"
+        },
+        {
+          "file": "sounds/session.start/sfx_shield_charge.mp3",
+          "label": "Shield recharge",
+          "sha256": "c6766796c019a3c4eb981d45edab9567362ca8132370a252322f87cf68f49fcb"
+        },
+        {
+          "file": "sounds/session.start/sfx_teleporter_activate.mp3",
+          "label": "Teleporter activate",
+          "sha256": "e3b0afca6c40b8a2923edea5dd09b97fdd2ea49f64904d7d517d373b0342ea93"
+        },
+        {
+          "file": "sounds/session.start/slayer.mp3",
+          "label": "Slayer",
+          "sha256": "fb877185b6169957b196c5fd646be386a46c6969f2ab42358452c5b1d63d36fb"
+        },
+        {
+          "file": "sounds/session.start/territories.mp3",
+          "label": "Territories",
+          "sha256": "b25104cbc0bfcbe2c123a85d9946818ecc45fe65a7cce95a34ef89c8cebcb20a"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/task.acknowledge/ball_taken.mp3",
+          "label": "Ball taken",
+          "sha256": "87fe4e6ea3f417d16ff578fa0076f7ed342169462da8e6ed2971234babf1f2fe"
+        },
+        {
+          "file": "sounds/task.acknowledge/bomb_taken.mp3",
+          "label": "Bomb taken",
+          "sha256": "fe742be2fb5082ebf1c6d3cef6d501558ac2a0be58d373b16ff6f5df800ace8d"
+        },
+        {
+          "file": "sounds/task.acknowledge/flag_taken.mp3",
+          "label": "Flag taken",
+          "sha256": "61161aba501e8143565acbbfe14ff35dd29d00a497cdd292cf0d1ffd4a98997e"
+        },
+        {
+          "file": "sounds/task.acknowledge/new_juggernaut.mp3",
+          "label": "New juggernaut",
+          "sha256": "9f4ef26cc2977b565a5f0d9b6771ce7927fff6883166256d98873e205e2d1ad4"
+        },
+        {
+          "file": "sounds/task.acknowledge/new_zombie.mp3",
+          "label": "New zombie",
+          "sha256": "9434954be8d44e9963829361e065fd43633ec169561b6a693ba501fa554a183e"
+        },
+        {
+          "file": "sounds/task.acknowledge/offense.mp3",
+          "label": "Offense",
+          "sha256": "6d7279cfff48b7275e3d70e964a613a127b0d4203378344f3e371b2472c28128"
+        },
+        {
+          "file": "sounds/task.acknowledge/sfx_pickup_invis.mp3",
+          "label": "Invis pickup",
+          "sha256": "abb0ce2993261e05225a8d49a25c7fa2ab31017c0386eb310e4d9de0cce17b42"
+        },
+        {
+          "file": "sounds/task.acknowledge/teamate_gained.mp3",
+          "label": "Teammate gained",
+          "sha256": "f9438a832260c80b82f04a66de430e78ef3883e41f2dfd318f7b25722e79d978"
+        },
+        {
+          "file": "sounds/task.acknowledge/territory_captured.mp3",
+          "label": "Territory captured",
+          "sha256": "d692cd2bc011f6580012af344b30dc6ff484a0c476690f8d2cd0fa2e40aa61c1"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/task.complete/bomb_detonated.mp3",
+          "label": "Bomb detonated",
+          "sha256": "77651e442acb49c7926b72a1e044f75a65b8c9daee1e32a3881a34b796f30125"
+        },
+        {
+          "file": "sounds/task.complete/double_kill.mp3",
+          "label": "Double kill!",
+          "sha256": "75b9598a5546e6d857b160ab7a2dc6f2627f52a378f87397530454724d2824f3"
+        },
+        {
+          "file": "sounds/task.complete/extermination.mp3",
+          "label": "Extermination!",
+          "sha256": "758a1a5ca66db670f3f58db335f62d79ee9a408d7a4d0a88f955d8f494ae642f"
+        },
+        {
+          "file": "sounds/task.complete/flag_captured.mp3",
+          "label": "Flag captured",
+          "sha256": "2e4e55da666b455695f1221fce5dbd9dda64afb6b1e4d9f6b1cc8d136c09dca0"
+        },
+        {
+          "file": "sounds/task.complete/gained_the_lead.mp3",
+          "label": "Gained the lead",
+          "sha256": "637cdeb95e8cd92c875238eac168f1cceafb82635d3bad1a3e4e12d8d59c7aaf"
+        },
+        {
+          "file": "sounds/task.complete/hail_to_the_king.mp3",
+          "label": "Hail to the king!",
+          "sha256": "2fc4e8a85c83bf7d2a130a798e2646854f0cbedafb1f172f2a3aa7b61f1251f0"
+        },
+        {
+          "file": "sounds/task.complete/invincible.mp3",
+          "label": "Invincible!",
+          "sha256": "dce53010d8a3af1ad47ec9d04e8952ecd8c649563bf374470a6cb177ac34c274"
+        },
+        {
+          "file": "sounds/task.complete/killimanjaro.mp3",
+          "label": "Killimanjaro!",
+          "sha256": "a4daebbd6cb0a9ff40244df90dc76bc5d341e5d93cbda9b6bf9d0c806756a3c4"
+        },
+        {
+          "file": "sounds/task.complete/killing_spree.mp3",
+          "label": "Killing spree!",
+          "sha256": "b37497765915f6e9b9dba26d3fce2b91f339aafff760e275acb27960ddc92ee9"
+        },
+        {
+          "file": "sounds/task.complete/killtacular.mp3",
+          "label": "Killtacular!",
+          "sha256": "2068112533c60b5ddb24ed4cb6ff367ce62f47847eadda25350892cdb76aec04"
+        },
+        {
+          "file": "sounds/task.complete/killtastrophe.mp3",
+          "label": "Killtastrophe!",
+          "sha256": "1e54e34a45986189d57045ebb6f32d3c4923a2e55c82f6c1019b1f3befd88cb8"
+        },
+        {
+          "file": "sounds/task.complete/killtrocity.mp3",
+          "label": "Killtrocity!",
+          "sha256": "941585344351ac859c0af0c4b92bb086a964682f62962e999272d6c12a514b44"
+        },
+        {
+          "file": "sounds/task.complete/overkill.mp3",
+          "label": "Overkill!",
+          "sha256": "2fe23a79a5a2c63c3e974ccc2047812706b7cdbe53697e9a276447649ad55bff"
+        },
+        {
+          "file": "sounds/task.complete/perfection.mp3",
+          "label": "Perfection!",
+          "sha256": "f8b3abd092f9ab47503582ccf104b1315a87474fe160e79e27a386d06f35b732"
+        },
+        {
+          "file": "sounds/task.complete/rampage.mp3",
+          "label": "Rampage!",
+          "sha256": "d1a76a2e73f8d645c3f96fc1d6d754c453e7f0f3d51d67b119634b50fb2b0514"
+        },
+        {
+          "file": "sounds/task.complete/round_over.mp3",
+          "label": "Round over",
+          "sha256": "73f70e945aee9675f418ac2ef3c7f28c0c27e7ce50e1d894cdf7f4e9713bc816"
+        },
+        {
+          "file": "sounds/task.complete/running_riot.mp3",
+          "label": "Running riot!",
+          "sha256": "3b3e5e0595426af29de0a6e947e1d849a4b189c9d3502580e01ede1840da6ab6"
+        },
+        {
+          "file": "sounds/task.complete/sharpshooter.mp3",
+          "label": "Sharpshooter!",
+          "sha256": "aa4403b42f6e4f732535558e53343ba60bd7e288ce489c28d696a97d72a80556"
+        },
+        {
+          "file": "sounds/task.complete/slice_n_dice.mp3",
+          "label": "Slice 'n' dice!",
+          "sha256": "b711c9e0e7be07e38aa0dbcb49631ff270e23dcbb1efb3f4af5f87c132d309a7"
+        },
+        {
+          "file": "sounds/task.complete/sniper_spree.mp3",
+          "label": "Sniper spree!",
+          "sha256": "67eaeb1b15730d11470f358252bf1f70cec2a5296f8bf0c70e8762f379dad4ce"
+        },
+        {
+          "file": "sounds/task.complete/triple_kill.mp3",
+          "label": "Triple kill!",
+          "sha256": "6ff272266ce509305e2dd270dbdf8dba7c3b09f291621d0d8a1ee409cb80b305"
+        },
+        {
+          "file": "sounds/task.complete/unstoppable.mp3",
+          "label": "Unstoppable!",
+          "sha256": "ccb166ed2a91db29cba0bfa8f3167c09e55e94169384f09f893176ac74999cb6"
+        },
+        {
+          "file": "sounds/task.complete/untouchable.mp3",
+          "label": "Untouchable!",
+          "sha256": "b1e6dcce8c6ef50d569ab3ee6af12c1041fa030e71852468c8896027fd6f5d67"
+        },
+        {
+          "file": "sounds/task.complete/zombie_killing_spree.mp3",
+          "label": "Zombie killing spree!",
+          "sha256": "4bfb9a7b38d41714178bfecf7a18e0f4f6251d7af1e45ba789d9deeae75768fc"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/task.error/ball_dropped.mp3",
+          "label": "Ball dropped",
+          "sha256": "319120681a105c40cf6ab45fd64e37e607222008d28e63e411adf16801f4df06"
+        },
+        {
+          "file": "sounds/task.error/betrayal.mp3",
+          "label": "Betrayal!",
+          "sha256": "281103f13f1d898eca1be13ee0fd6cd3c9af4c1bf542fb498605643c7af8697b"
+        },
+        {
+          "file": "sounds/task.error/bomb_disarmed.mp3",
+          "label": "Bomb disarmed",
+          "sha256": "cf2ef1bef3ad24c15b051e075f343eb20cf3f6324e8220c5c791c1ae6e41fcbe"
+        },
+        {
+          "file": "sounds/task.error/bomb_dropped.mp3",
+          "label": "Bomb dropped",
+          "sha256": "54ce168f0353e60d727fac50853e00e4e9c2d450ca3f524189d73ccc28cdc78d"
+        },
+        {
+          "file": "sounds/task.error/flag_dropped.mp3",
+          "label": "Flag dropped",
+          "sha256": "881c06b9ddda753d9cc869c5e747c8eb12f2547910db585e284fddf58b713f35"
+        },
+        {
+          "file": "sounds/task.error/sfx_flag_fail.mp3",
+          "label": "Flag fail",
+          "sha256": "efcf8263e7bcb202f44508b3db3dcab3e9cf978cfba997e00b1634f47eaf7381"
+        },
+        {
+          "file": "sounds/task.error/sfx_shield_depleted.mp3",
+          "label": "Shield depleted",
+          "sha256": "f1175f7cef1a540b9ceb556710caa61d57528156264ee437e40d205c9a6cac1a"
+        },
+        {
+          "file": "sounds/task.error/territory_lost.mp3",
+          "label": "Territory lost",
+          "sha256": "371dacfe510542524f59874ae690efb1987a9764474f6db14d39d94ac2632ee2"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/input.required/hill_contested.mp3",
+          "label": "Hill contested",
+          "sha256": "efb42e8450ae2ccdd1c3052cf4e80c60b4cd2bd40fd3662f1986e10f0eb852e4"
+        },
+        {
+          "file": "sounds/input.required/sfx_tracking_locked.mp3",
+          "label": "Rocket lock-on",
+          "sha256": "b74729828cb937bad84e05dfdb4e657ef8d5ce60862f88318f2b9ff62f5dbdce"
+        },
+        {
+          "file": "sounds/input.required/sudden_death.mp3",
+          "label": "Sudden death",
+          "sha256": "d91e8ee6f5d8a7a5bbded38fbd981d04016b3c3fcfb01e99f605f1528c371843"
+        },
+        {
+          "file": "sounds/input.required/target_changed.mp3",
+          "label": "Target changed",
+          "sha256": "61c46c246a6fb3a91006efcc877ebe8ccc059a7e3acef68865e596a9d9c93641"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/resource.limit/ball_reset.mp3",
+          "label": "Ball reset",
+          "sha256": "bcf4d836581517a08fce7e9d035c7dc47ce940ff16860405b1f2589b430b93f9"
+        },
+        {
+          "file": "sounds/resource.limit/bomb_armed.mp3",
+          "label": "Bomb armed",
+          "sha256": "f25986833dc9b09a43842dd0582d98c3d17f6c4d22bc2bfff645cebc82038996"
+        },
+        {
+          "file": "sounds/resource.limit/bomb_reset.mp3",
+          "label": "Bomb reset",
+          "sha256": "3fb2f1ca2d46888f36f2a03fb5ad2808143182669668766ff6ce9433f5b9e8a8"
+        },
+        {
+          "file": "sounds/resource.limit/defense.mp3",
+          "label": "Defense",
+          "sha256": "10e9f294a2902ae6a99c80d7400581a361c43e81383a8da7e5fcb3608f91c922"
+        },
+        {
+          "file": "sounds/resource.limit/destination_moved.mp3",
+          "label": "Destination moved",
+          "sha256": "292dcd4302e53d335acea7c00c2caf5319a0ac3cc6273925fb2d17693494d5b6"
+        },
+        {
+          "file": "sounds/resource.limit/flag_reset.mp3",
+          "label": "Flag reset",
+          "sha256": "b88781a74f5cecada565f51924e0c9313990ca07e4af02aa89d412fe02c74d31"
+        },
+        {
+          "file": "sounds/resource.limit/flag_stolen.mp3",
+          "label": "Flag stolen",
+          "sha256": "2f1f8e0624d8f1fa5f05a875b8369f037bbab2bccb95302b5b601d5a999132a7"
+        },
+        {
+          "file": "sounds/resource.limit/hill_moved.mp3",
+          "label": "Hill moved",
+          "sha256": "f2cb26c7500a8aba214c436b67a6ae64d745651f51097521fe4fb234d228b082"
+        },
+        {
+          "file": "sounds/resource.limit/last_man_standing.mp3",
+          "label": "Last man standing",
+          "sha256": "eded9b777040f6a671a276ae9af61e984c6f4e41c324e74f8b8826c0c00f1273"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/user.spam/betrayed.mp3",
+          "label": "Betrayed",
+          "sha256": "8995123773a998b75ed295697d532222da7aaf47f2e5bceee15e71937ea069c7"
+        },
+        {
+          "file": "sounds/user.spam/infected.mp3",
+          "label": "Infected",
+          "sha256": "eb6148d3cda4ccd413d9c91d57f65c984cb169fb41f9fbe79abed14fad043f88"
+        },
+        {
+          "file": "sounds/user.spam/suicide.mp3",
+          "label": "Suicide",
+          "sha256": "fe9c358d20cde8a6bac0e7f910172d9dfdf89558e089c559c31bf3db0e49d218"
+        }
+      ]
+    },
+    "session.end": {
+      "sounds": [
+        {
+          "file": "sounds/session.end/game_over.mp3",
+          "label": "Game Over",
+          "sha256": "b6e2596775ee937cac41d482d35b605a0a03eb16278ba5cb257db6f5c1e1c65c"
+        }
+      ]
+    }
+  },
+  "description": "Halo 3 multiplayer announcer voice pack with iconic kill medals, game modes, and SFX."
+}
